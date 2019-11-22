@@ -1,0 +1,302 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url(img/imp64.jpg); 
+    background-size: all;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.header {
+    position: fixed;
+    background: rgba(229, 233, 241, 0.692);
+    color: #204ac1;
+    width: 100%;
+    height: 130px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+    text-align: center;
+    box-shadow: 0px -2px 20px 7px rgb(10, 42, 224);
+}
+#title {
+     font-family: fantasy;
+    font-weight: bold;
+    font-style: italic;
+	font-size: 4rem;
+	margin: 0 auto;
+	display: inline-block;
+    width: fit-content;
+	position: relative;
+}
+.logo-container .logo-numbers {
+    color:  #204ac1;
+    font-size: 5rem;
+    /* text-shadow: 6px 6px 12px black; */
+}
+.logo-numbers span {
+	position: relative;
+	letter-spacing: 10px;
+	text-shadow: 6px 6px 12px black;
+}
+/* span.lg-n-1 { */
+    /* font-size: 90px; */
+    /* left: 1px; */
+
+.lg-n-2 {
+    /* left: -6px; */
+    /* top: -5px; */
+    color: #204ac1;
+    text-shadow: 3px 7px 8px black !important;
+    z-index: 2;
+}
+.lg-n-3 {
+    /* left: -23px; */
+    /* top: 8px; */
+	z-index: 1;
+}
+
+/* .lg-n-4 { */
+	/* left: -32px; */
+    /* top: -6px; */
+.navbar {
+	background: rgb(139, 140, 141);
+    border-top: 3px solid blue;
+    height: 50px;
+    
+}
+.navbar ul {
+    list-style: none;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+	margin: 15px;
+    padding: 0;
+    
+}
+.navbar a {
+	font-size: 17px;
+	color: black;
+	font-family: sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 20px 35px;
+	letter-spacing: 2px;
+}
+.navbar a:hover {
+    background-color: rgba(7, 23, 167, 0.39);
+    color:white;
+}
+/* nev bar styles */
+/* logo styles */
+/* .logo-container {
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: italic;
+	font-size: 4rem;
+	margin: 0 auto;
+	display: inline-block;
+    width: fit-content;
+	position: relative;
+    */
+
+#des-txt {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+   min-height: 200px;
+    width: 100%;
+    justify-content: center;
+   
+}
+#description {
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(229, 233, 241, 0.692);
+     border: 3px solid;
+    border-color:  #204ac1;
+    text-align: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+.form-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     min-height: 200px;
+    width: 100%;
+}
+#survey-form { 
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+      font-size: 24px;
+    font-weight: bold;
+    background: rgba(229, 233, 241, 0.692);
+     border: 3px solid;
+    border-color:  #204ac1;
+    min-height: 170px;
+    min-width: 175px;
+}
+#survey-form div {
+      display: flex;
+    flex-direction: column;
+    border: 3px solid #204ac1;
+    margin: 10px;
+    padding: 5px;
+}
+.h2txt {
+    display: flex;
+    justify-content: center;
+    background:  rgba(229, 233, 241, 0.692);
+    border: 3px solid #204ac1;
+    margin: 10px;
+    margin-left: 150px; 
+    width: 80%;
+}
+
+.ctype {
+    min-height: 170px;
+    min-width: 175px;
+    padding: 5px;
+}
+/* gallery.css */
+.container {
+    background: #040507;
+    height: 100%;
+    width: 100%;  
+
+}
+.container.mainimg {
+   background-image: url(img/imp64.jpg); 
+}
+.autopix {
+    max-width: 700px;
+    max-height: 600px;
+    border: 3px solid  #204ac1;
+    width: 700px;
+    padding: 5px;
+    margin: 10px;
+}
+.img-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:50px;
+    margin-top: 140px;
+}
+/* contact-page */
+body {
+    margin:0;
+    padding:0;
+    
+    
+}
+.cont-page {
+   background-image: url(img/mraudi.jpg);
+   background-size: cover;
+   min-height: 800px;
+   height: 100%;
+   width: 100%; 
+}
+.con-info {
+    display: flex;
+    flex-direction: column;
+}
+.addy-num {
+    background:  rgba(229, 233, 241, 0.692);
+    border:  3px solid  #204ac1;
+    margin-top: 150px;
+    margin-left: 50px; 
+    height: 300px;
+    width: 500px;
+}
+.aw-ad-nm{
+    display: flex;
+    flex-direction: column;
+}
+.comp-txt {
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.ady-txt {
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bolder; 
+}
+.num-txt {
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+/* .user-info {
+
+} */
+/* about us page */
+.body {
+    margin:0;
+    padding:0;
+    
+     
+}
+.abcon {
+    background: url(img/sicmaro.jpg);
+    background-size: cover;
+    min-height: 800px;
+    height: 100%;
+    width: 100%;
+}
+.advrts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.placecard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background:  rgba(229, 233, 241, 0.692);
+    border:  3px solid  #204ac1;
+    margin-top: 150px;
+    margin-left: 15px;
+    padding: 15px;
+    height: 400px;
+    width: 600px;
+}
+.placecard_img_left {
+   width: 60%;
+   float: left; 
+}
+.placecard_text_right {
+    width: 40%;
+    float: right;
+    padding: 30px;
+}
+img {
+    max-width: 250px;
+}
+/* footer */
+.foot-cont{
+    background: rgba(229, 233, 241, 0.692);
+    color: #204ac1;
+    border-top: 3px solid  #204ac1;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+}
+@media(max-width: 990px)
+{
+	.container .abcon .cont-page{
+		width: 100%;
+	}
+
