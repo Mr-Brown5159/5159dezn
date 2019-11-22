@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background-image: url(img/imp64.jpg); 
+    background-image: url(imp64.jpg); 
     background-size: all;
 }
 .container {
@@ -200,7 +200,7 @@ body {
     
 }
 .cont-page {
-   background-image: url(img/mraudi.jpg);
+   background-image: url(mraudi.jpg);
    background-size: cover;
    min-height: 800px;
    height: 100%;
@@ -248,7 +248,7 @@ body {
      
 }
 .abcon {
-    background: url(img/sicmaro.jpg);
+    background: url(sicmaro.jpg);
     background-size: cover;
     min-height: 800px;
     height: 100%;
